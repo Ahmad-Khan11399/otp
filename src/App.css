@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+h2{
+  margin: 0;
+  font-size: 3rem;
+  font-weight:bolder;
+ 
+}
+.custom-button {
+  background-color:#FF7B54;
+  color: #fff;
+  border:solid;
+  /* border-width: thick; */
+  border-color:#FFEBD6;
+  position: absolute;
+  top:50%;
+  left:40%;
+  width:15%;
+  height: 15%;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  min-width: 70%;
+  min-height: 90vh;
+  text-align: center;
+  background-color:transparent;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#verify{
+  position: absolute;
+  left:55%;
+}
+.custom-button:hover,
+.custom-button:focus {
+  background-color:#faa58b;
+  border-color:#F9F5EB;
+}
+
+.main{
+background-image: url("./otp_back.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+color:#503D71;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+#btn{
+  position: absolute;
+  left:40%;
+  width:20%;
+  height:20%;
+}
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  position:absolute;
+  top:30%;
+  left:38%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.msg{
+  color:#355539;
+  
+}
+label{
+  color:#A86464 ;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+p {
+  color:#19A7CE;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+p.error {
+  color: red;
+}
