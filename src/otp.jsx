@@ -74,7 +74,6 @@ function Otp() {
           <h2>Enter Your 6-Digit PIN</h2>
           <p className='msg'>Please enter the 6-digit PIN:</p>
           <div className="pin-input-field">
-            <label htmlFor="pin">Enter PIN:</label>
             <input
               type="text"
               id="pin"
